@@ -1,10 +1,11 @@
 version: "1"
 source: DataHub
 owners:
+  users:
+    - datahub
+url: "http://10.10.128.38:32694"
 nodes:
   - name: "Finance glossary" # Node ID: Customer-Support
     description: "Response SLA"
-    owners:
-      users:
-        - datahub
+    
  
