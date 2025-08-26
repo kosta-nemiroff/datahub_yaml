@@ -5,15 +5,15 @@ source: DataHub
 #    - datahub
 
 nodes:
-  - name: "Finance"
-    description: Finance domain terms
+  - name: "Customer Support" # Node ID: Customer-Support
     terms:
-      - name: "Brand Hierarchy"
-        description: The brand hierarchy is used for planning and analyzing marketing and trade marketing campaigns, as well as for planning the launch of new products (NPD). It consists of three levels: Brand, SubBrand, ProductLine
-        # Optional: Add parent terms for hierarchy
-        # parent: "urn:li:glossaryTerm:ParentTerm"
-        # Optional: Add owners, tags, etc.
-        #owners:
-        #  - "urn:li:corpuser:datahub"
-      - name: "Brand"
-        description: A brand is a unique identity that represents a company, product, or service. It encompasses the name, logo, design, and overall image that distinguishes it from competitors. For Nemiroff, our main brands are LEX, Nemiroff, and Немирівська.
+      - name: "Response Time" # Term ID: Customer-Support.Response-Time
+        description: "Response SLA"
+
+      - name: "First Reply" # Term ID: Customer-Support.First-Reply
+        description: "Initial response"
+
+  - name: "Product Feedback" # Node ID: Product-Feedback
+    terms:
+      - name: "Response Time" # Term ID: Product-Feedback.Response-Time
+        description: "Feedback response"
