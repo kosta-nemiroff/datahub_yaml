@@ -6,6 +6,7 @@ source: DataHub
 
 nodes:
   - name: "Customer Support" # Node ID: Customer-Support
+    description: "Response SLA"
     terms:
       - name: "Response Time" # Term ID: Customer-Support.Response-Time
         description: "Response SLA"
@@ -14,6 +15,7 @@ nodes:
         description: "Initial response"
 
   - name: "Product Feedback" # Node ID: Product-Feedback
+    description: "Response SLA"
     terms:
       - name: "Response Time" # Term ID: Product-Feedback.Response-Time
         description: "Feedback response"
