@@ -7,6 +7,9 @@ owners:
 nodes:
   - name: "Customer Support" # Node ID: Customer-Support
     description: "Response SLA"
+    owners:
+      users:
+        - datahub
     terms:
       - name: "Response Time" # Term ID: Customer-Support.Response-Time
         description: "Response SLA"
