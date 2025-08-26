@@ -1,36 +1,9 @@
 version: "1"
 source: DataHub
-owners:
-  users:
-    - datahub
-
 nodes:
-  - name: "Customer Support" # Node ID: Customer-Support
+  - name: "Finance glossary" # Node ID: Customer-Support
     description: "Response SLA"
     owners:
       users:
         - datahub
-    terms:
-      - name: "Response Time" # Term ID: Customer-Support.Response-Time
-        description: "Response SLA"
-        owners:
-          users:
-            - datahub    
-
-      - name: "First Reply" # Term ID: Customer-Support.First-Reply
-        description: "Initial response"
-        owners:
-          users:
-            - datahub    
-
-  - name: "Product Feedback" # Node ID: Product-Feedback
-    description: "Response SLA"
-    owners:
-      users:
-        - datahub
-    terms:
-      - name: "Response Time" # Term ID: Product-Feedback.Response-Time
-        description: "Feedback response"
-        owners:
-          users:
-            - datahub    
+ 
