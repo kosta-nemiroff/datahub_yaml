@@ -1,8 +1,8 @@
 version: "1"
 source: DataHub
-owners:
-  users:
-    - datahub
+#owners:
+#  users:
+#    - datahub
 
 nodes:
   - name: "Finance"
