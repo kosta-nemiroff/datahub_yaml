@@ -1,5 +1,6 @@
 version: "1"
 source: DataHub
+owners:
 nodes:
   - name: "Finance glossary" # Node ID: Customer-Support
     description: "Response SLA"
