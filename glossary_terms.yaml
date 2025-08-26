@@ -12,7 +12,7 @@ nodes:
         # Optional: Add parent terms for hierarchy
         # parent: "urn:li:glossaryTerm:ParentTerm"
         # Optional: Add owners, tags, etc.
-        owners:
-          - "urn:li:corpuser:datahub"
+        #owners:
+        #  - "urn:li:corpuser:datahub"
       - name: "Brand"
         description: "A brand is a unique identity that represents a company, product, or service. It encompasses the name, logo, design, and overall image that distinguishes it from competitors. For Nemiroff, our main brands are LEX, Nemiroff, and Немирівська."
