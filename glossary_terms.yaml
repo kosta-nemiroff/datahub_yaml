@@ -1,11 +1,12 @@
 version: "1"
 source: DataHub
-#owners:
-#  users:
-#    - datahub
+owners:
+  users:
+    - datahub
 
 nodes:
   - name: "Finance"
+    description: "Finance domain terms"
     terms:
       - name: "Brand Hierarchy"
         description: "The brand hierarchy is used for planning and analyzing marketing and trade marketing campaigns, as well as for planning the launch of new products (NPD). It consists of three levels: Brand, SubBrand, ProductLine"
